@@ -1,0 +1,243 @@
+/* img{
+    height: 300px;
+    border: 4px solid black;
+    margin: 10px;
+    padding: 10px;
+
+} */
+
+
+/* a{
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+} */
+
+
+
+
+
+/* body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #444;
+}
+a{
+    color: blue;
+    text-decoration: none;
+
+}
+h2{
+    color: #2222;
+    border-bottom: 1px solid #444;
+}
+nav{
+    background: #cecece;
+    
+} */
+
+
+
+
+
+/* hr{
+    width: 500px;
+    margin-left: 0;
+    border: 0.5px dashed black;
+}
+.box2{
+    box-sizing: border-box;
+    width: 500px;
+    background: lightcoral;
+    border: 10px solid red;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+.box3{width: 500px;
+    background: lightcoral;
+    border: 10px solid red;
+    padding: 50px
+
+} */
+
+
+
+
+
+/* default browse */
+
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+/* 
+
+
+inheritance */
+
+/* body{
+    color:red;
+
+}
+.container1{
+    color:green;
+
+}
+.container2{
+    color:blue;
+
+}
+h2{
+    color:black;
+} */
+
+
+
+/* alignproperty */
+
+/* h1{
+    background: lightblue;
+    text-align: right;
+    padding-right: 10px;
+    width: 500px;
+}
+a{
+    display: inline-block;
+    width: 500px;
+    background: lightcoral;
+    text-align: center;
+    text-align: left;
+} */
+
+
+/* fontweight */
+
+/* p{
+    font-weight: normal;
+    font-weight: 400;
+
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+} */
+
+/* wave underline */
+
+/* h1{
+    font-size: 46px;
+    text-decoration: underline wavy red;
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 5px;
+} */
+
+/* pseudo classes */
+
+/* a:visited{
+    color:red;
+}
+a:hover{
+    color:green;
+
+}
+a:active{
+    color:black;
+} */
+
+
+
+
+/* form */
+
+/* input:focus{
+    padding:5px;
+    outline: none;
+    border: 2px solid green;
+
+}
+input:required{
+    color:red;
+} */
+
+
+/* child */
+/* p:first-child{
+    color: red;
+}
+p:first-of-type{
+    color:red;
+}
+p:last-child{
+    color:green;
+}
+p:last-of-type{
+    color:green;
+}
+p:nth-child(2n){
+    color:green;
+}
+p:nth-of-type(2n){
+    color:red;
+} */
+
+
+
+/* rootnotempty */
+
+/* body:not(p){
+    color:red;
+}
+body:not(.fancy){
+    color:blue;
+    background-color: #ddd;
+
+}
+div:empty{
+    background: #222;
+    border: 2px solid red;
+    height:100px;
+    width:100px;
+}
+:root{
+    background: #333;
+    color:#eee;
+} */
+
+/* first letter word */
+/* p::first-letter{
+    font-size: 32px;
+}
+::selection{
+    background: black;
+    color:aliceblue;
+} */
+
+/* beforeafter */
+
+.cool::before{
+    display:block;
+    content: "HELLO ANKIT";
+    color:green;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.cool::after{
+    display:block;
+    content: "HELLO ANKIT";
+    color:green;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+.main-heading::before{
+    content:"chaubey g";
+    color: red;
+
+}
